@@ -1,7 +1,7 @@
 pluginManagement {
     def flutterSdkPath = {
         def properties = new Properties()
-        def propertiesFile = new File(rootDir.parentFile, "local.properties")
+        def propertiesFile = new File(rootDir, "local.properties")
         if (propertiesFile.exists()) {
             properties.load(new FileInputStream(propertiesFile))
             return properties.getProperty('flutter.sdk')
@@ -34,9 +34,18 @@ plugins {
 
 include ":app"
 
-def flutterProjectRoot = rootProject.projectDir.parentFile
-def plugins = new Properties()
-def flutterPropertiesFile = new File(flutterProjectRoot, '.flutter-plugins')
-if (flutterPropertiesFile.exists()) {
-    flutterPropertiesFile.withReader('UTF-8') { reader -> plugins.load(reader) }
+def localPropertiesFile = new File(rootDir, "local.properties")
+def properties = new Properties()
+
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader("UTF-8") { reader -> properties.load(reader) }
+}
+
+def flutterSdkPath = properties.getProperty("flutter.sdk")
+if (flutterSdkPath == null) {
+    flutterSdkPath = System.getenv("FLUTTER_ROOT")
+}
+
+if (flutterSdkPath != null) {
+    apply from: "$flutterSdkPath/packages/flutter_tools/gradle/app_plugin_loader.gradle"
 }

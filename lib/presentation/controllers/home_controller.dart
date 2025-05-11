@@ -11,7 +11,6 @@ class HomeController extends GetxController {
   final RxString errorMessage = ''.obs;
 
   static const List<String> categories = [
-    'general',
     'business',
     'technology',
     'sports',

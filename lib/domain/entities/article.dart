@@ -1,11 +1,31 @@
+import 'package:hive/hive.dart';
+
+part 'article.g.dart'; // Generated file
+
+@HiveType(typeId: 0)
 class Article {
+  @HiveField(0)
   final String? source;
+
+  @HiveField(1)
   final String? author;
+
+  @HiveField(2)
   final String title;
+
+  @HiveField(3)
   final String? description;
+
+  @HiveField(4)
   final String url;
+
+  @HiveField(5)
   final String? urlToImage;
+
+  @HiveField(6)
   final DateTime publishedAt;
+
+  @HiveField(7)
   final String? content;
 
   Article({
@@ -44,4 +64,4 @@ class Article {
       'content': content,
     };
   }
-} 
+}
