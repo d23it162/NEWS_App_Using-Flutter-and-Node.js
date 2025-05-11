@@ -1,4 +1,4 @@
-![saved articles](https://github.com/user-attachments/assets/39599bf9-f931-44d4-bdea-bff2f62b0e41)
+
 # 📱 Flutter NewsWave
 
 Flutter NewsWave is a modern, responsive mobile application built with Flutter and GetX that delivers real-time news updates across categories. Fetching articles directly from NewsAPI.org, the app offers a sleek user experience with category filtering, keyword-based search, article bookmarking, and a polished UI.
@@ -9,101 +9,76 @@ Designed with clean architecture principles, Flutter NewsWave separates concerns
 
 ## 🎯 Features
 
-- 📰 View Latest News  
-  Displays top headlines from NewsAPI.org with shimmer loading animations.
-
-- 🗂️ Filter by Categories  
-  Horizontally scrollable, toggleable categories (e.g., Business, Tech, Sports).
-
-- 🔍 Search News  
-  Real-time search functionality with handling for empty or invalid results.
-
-- 📄 Detailed Article View  
-  Full article page with image, title, content, and external source link.
-
-- ⭐ Save & Manage Favorites  
-  Favorite/unfavorite articles stored locally using Hive or SharedPreferences.
-
-- ♻ Pull-to-Refresh  
-  Tap the app title to refresh the news feed instantly.
-
-- 🎨 Clean, Responsive UI  
-  Adaptive design with modern color palette, rounded corners, and consistent spacing.
-
-- 📷 Responsive Images  
-  Uses BoxFit and LayoutBuilder to display images cleanly on all screen sizes.
-
-- 🧠 GetX Integration  
-  State management, API handling, and navigation are all powered by GetX.
+- 📰 **View Latest News**: Displays top headlines from NewsAPI.org with shimmer loading animations.
+- 🗂️ **Filter by Categories**: Horizontally scrollable, toggleable categories (e.g., Business, Tech, Sports).
+- 🔍 **Search News**: Real-time search functionality with handling for empty or invalid results.
+- 📄 **Detailed Article View**: Full article page with image, title, content, and external source link.
+- ⭐ **Save & Manage Favorites**: Favorite/unfavorite articles stored locally using Hive or SharedPreferences.
+- ♻ **Pull-to-Refresh**: Tap the app title to refresh the news feed instantly.
+- 🎨 **Clean, Responsive UI**: Adaptive design with modern color palette, rounded corners, and consistent spacing.
+- 📷 **Responsive Images**: Uses BoxFit and LayoutBuilder to display images cleanly on all screen sizes.
+- 🧠 **GetX Integration**: State management, API handling, and navigation are all powered by GetX.
 
 ## 📸 Screenshots
 
-Include screenshots such as:
+- 🏠 **Home Screen (Trending news + category filters)**  
+  <img src="https://github.com/user-attachments/assets/16c10d43-ee12-471b-b050-7a5972f0a5c9" alt="Home Screen" width="300"/>
 
-- 🏠 Home Screen (Trending news + category filters)  ![home](https://github.com/user-attachments/assets/16c10d43-ee12-471b-b050-7a5972f0a5c9)
+- 🔎 **Search Results Screen**  
+  <img src="https://github.com/user-attachments/assets/dfe9d0cb-5a1f-42ff-95ad-faaf22ca2a10" alt="Search Results Screen" width="300"/>
 
-- 🔎 Search Results Screen  ![search bar](https://github.com/user-attachments/assets/dfe9d0cb-5a1f-42ff-95ad-faaf22ca2a10)
-  
-- 📖 Article Details Page  ![news detiled page](https://github.com/user-attachments/assets/df050345-e824-45b6-a1a4-56fdf803ca0e)
-  
-- 📌 Favorites Screen  ![saved articles](https://github.com/user-attachments/assets/d076c8e5-af7a-4a2a-9773-e08b02b13010)
- 
+- 📖 **Article Details Page**  
+  <img src="https://github.com/user-attachments/assets/df050345-e824-45b6-a1a4-56fdf803ca0e" alt="Article Details Page" width="300"/>
+
+- 📌 **Favorites Screen**  
+  <img src="https://github.com/user-attachments/assets/d076c8e5-af7a-4a2a-9773-e08b02b13010" alt="Favorites Screen" width="300"/>
 
 ## 🎥 Demo Video
 
-▶️ Demo: Flutter NewsWave Demo  
-
-https://github.com/user-attachments/assets/e98beb20-8d25-4736-b335-637befbcb3ab
-
+▶️ **Demo**: [Flutter NewsWave Demo](#)  
+Click [here](https://github.com/user-attachments/assets/e98beb20-8d25-4736-b335-637befbcb3ab) to watch the demo video.  
+*Note*: GitHub doesn't support direct video embedding. For a better experience, consider uploading the video to a platform like YouTube or Vimeo and embedding it here.
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
-
+**Frontend**:
 - Flutter (Latest stable)  
 - Dart  
 - GetX  
-- Hive / SharedPreferences  
+- Hive / SharedPreferences
 
-**API:**
-
+**API**:
 - NewsAPI.org (No backend server required)
 
 ## 🧰 Installation & Setup
 
 ### 1. Prerequisites
-
 - Flutter SDK installed  
 - Dart (comes with Flutter)  
-- NewsAPI.org API key  
+- NewsAPI.org API key
 
 ### 2. Setup
 
 Clone the repository:
-
 ```bash
 git clone https://github.com/your-username/flutter-newswave.git
 cd flutter-newswave
 ```
 
 Install dependencies:
-
 ```bash
 flutter pub get
 ```
 
-Add your NewsAPI API key:
-
-Option A (recommended): Create a `.env` file and add:
-
+Add your NewsAPI API key:  
+**Option A (recommended)**: Create a `.env` file and add:
 ```env
 NEWS_API_KEY=your_api_key_here
 ```
 
-Option B: Hardcode into `lib/data/providers/api_provider.dart` (not secure for production)
+**Option B**: Hardcode into `lib/data/providers/api_provider.dart` *(not secure for production)*
 
 Run the app:
-
 ```bash
 flutter run
 ```
@@ -157,12 +132,8 @@ We welcome contributions!
 4. Push your branch: `git push origin feature/your-feature`  
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License. See LICENSE for details.
-
 ## 📬 Contact
 
-Created & maintained by Dhruv Vaghasia  
+Created & maintained by **Dhruv Vaghasiya**  
 📧 Email: vaghasiyadhruv09@gmail.com  
-🔗 GitHub: https://github.com/your-username (Replace with your profile)
+🔗 GitHub: [https://github.com/d23it162](https://github.com/d23it162)
