@@ -22,7 +22,6 @@ Designed with clean architecture principles, Flutter NewsWave separates concerns
 ## 📸 Screenshots
 
 - 🏠 **Home Screen (Trending news + category filters)**
-  </n>
   <img src="https://github.com/user-attachments/assets/16c10d43-ee12-471b-b050-7a5972f0a5c9" alt="Home Screen" width="300"/>
 
 - 🔎 **Search Results Screen**  
