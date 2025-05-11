@@ -36,7 +36,7 @@ Designed with clean architecture principles, Flutter NewsWave separates concerns
 ## 🎥 Demo Video
 
 ▶️ **Demo**: [Flutter NewsWave Demo](#)  
-Click [here](https://github.com/user-attachments/assets/e98beb20-8d25-4736-b335-637befbcb3ab) to watch the demo video.  
+Click [here](https://youtube.com/shorts/gFHYEQvbFFw?si=xHhG_ZRp9Qm47I0Z) to watch the demo video.  
 *Note*: GitHub doesn't support direct video embedding. For a better experience, consider uploading the video to a platform like YouTube or Vimeo and embedding it here.
 
 ## 🛠️ Tech Stack
